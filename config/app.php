@@ -151,7 +151,7 @@ return [
          * Package Service Providers...
          */
 
-        /* 
+        /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
@@ -160,6 +160,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         //Acacha\LaravelSocial\Providers\LaravelSocialServiceProvider::class,
+      //  Acoustep\EntrustGui\EntrustGuiServiceProvider::class,
+
 
     ],
 
@@ -209,6 +211,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+      //  'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
 
     ],
 
